@@ -1,0 +1,40 @@
+.slider{
+    position: relative;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+button{
+    border: none;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(92, 235, 99);
+    padding: .1em .75em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 200ms;
+    opacity: 0;
+}
+
+.btn-prev{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    translate: 0 -50%;
+}
+
+.btn-next{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+button:hover{
+    opacity: 1;
+}
+
